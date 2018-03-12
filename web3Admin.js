@@ -242,6 +242,12 @@ module.exports = {
             property: 'txpool',
             methods:
             [
+              new web3._extend.Method({
+                name: 'inspect',
+                call: 'txpool_inspect',
+                params: 0,
+                outputFormatter: function(obj) { return obj; }
+              })
             ],
             properties:
             [
