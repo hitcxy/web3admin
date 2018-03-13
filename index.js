@@ -1,7 +1,7 @@
 const Web3 = require('web3')
 var web3 = new Web3()
 //web3 = new Web3(new Web3.providers.IpcProvider('', ipcProviderWrapper))
-const web3Admin = require('./web3Admin.js')
+const web3Admin = require('./web3admin.js')
 web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'))
 setTimeout(function(){
     web3Admin.extend(web3)
