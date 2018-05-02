@@ -249,7 +249,7 @@ module.exports = {
                 outputFormatter: function(obj) { return obj; }
               }),
               new web3._extend.Method({
-                name: 'inspect',
+                name: 'content',
                 call: 'txpool_content',
                 params: 0,
                 outputFormatter: function(obj) { return obj; }
