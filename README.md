@@ -1,6 +1,14 @@
 ## web3Admin
 
-Extend web3 with aditional capabilities
+Extend web3 with additional capabilities.
+
+A fork of [https://github.com/DecentricCorp/web3admin]() for [Identity.com](https://www.identity.com/),
+exposing the following additional APIs:
+
+|module|type|name
+|---|---|---|
+txpool|property|`inspect`
+txpool|property|`content`
 
 ### Install
 ```
